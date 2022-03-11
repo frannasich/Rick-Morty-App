@@ -344,7 +344,6 @@
 			isa = PBXGroup;
 			children = (
 				A104A30B27DAB48C00F51BD6 /* CharacterDetailViewController.swift */,
-				A104A30C27DAB48C00F51BD6 /* CharacterDetailViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,6 +359,7 @@
 		A1BB4AC027DAA48200D28847 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A104A30C27DAB48C00F51BD6 /* CharacterDetailViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
