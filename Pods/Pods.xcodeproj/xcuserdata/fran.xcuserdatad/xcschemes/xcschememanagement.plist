@@ -4,19 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Rick &amp; Morty App.xcscheme_^#shared#^_</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>0</integer>
+		</dict>
+		<key>Pods-Rick &amp; Morty App.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>A1BB4A5A27DA4E0900D28847</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>
