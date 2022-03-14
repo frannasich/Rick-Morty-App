@@ -23,6 +23,8 @@ class MainPageViewController: UIViewController {
         self.navigationController?.pushViewController(episodesList, animated: true)
     }
     @IBAction func locationsButton(_ sender: Any) {
+        let locationsList = LocationsListViewController()
+        self.navigationController?.pushViewController(locationsList, animated: true)
     }
     
 }

@@ -81,8 +81,7 @@
                         <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
                     <connections>
-                        <action selector="episodesButton:" destination="-1" eventType="touchUpInside" id="m39-zu-eBe"/>
-                        <action selector="locationsButton:" destination="-1" eventType="touchUpInside" id="8Sh-17-nTI"/>
+                        <action selector="locationsButton:" destination="-1" eventType="touchUpInside" id="am9-dw-Qu4"/>
                     </connections>
                 </button>
             </subviews>
