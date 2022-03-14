@@ -8,9 +8,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EpisodesListViewController" customModule="Rick___Morty_App" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LocationsListViewController" customModule="Rick___Morty_App" customModuleProvider="target">
             <connections>
-                <outlet property="episodesTableView" destination="Pfc-Av-IMs" id="CZZ-q2-MKd"/>
+                <outlet property="locationTableView" destination="Hmb-8Y-hik" id="EIe-WD-CMU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,18 +19,18 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Pfc-Av-IMs">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Hmb-8Y-hik">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                    <color key="backgroundColor" red="1" green="0.9914920657801819" blue="0.69304656937544173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" red="0.71270265181790848" green="0.90876590910243082" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="Pfc-Av-IMs" secondAttribute="bottom" id="798-rt-nvh"/>
-                <constraint firstItem="Pfc-Av-IMs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="LeP-9u-Fy6"/>
-                <constraint firstItem="Pfc-Av-IMs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="haf-AO-J54"/>
-                <constraint firstItem="Pfc-Av-IMs" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="rmJ-OR-ewb"/>
+                <constraint firstAttribute="bottom" secondItem="Hmb-8Y-hik" secondAttribute="bottom" id="83i-3W-G2V"/>
+                <constraint firstItem="Hmb-8Y-hik" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="9el-cu-rzt"/>
+                <constraint firstAttribute="trailing" secondItem="Hmb-8Y-hik" secondAttribute="trailing" id="C8a-jA-L6h"/>
+                <constraint firstItem="Hmb-8Y-hik" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="cPn-0A-oep"/>
             </constraints>
             <point key="canvasLocation" x="131.8840579710145" y="63.616071428571423"/>
         </view>

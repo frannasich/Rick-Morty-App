@@ -17,9 +17,9 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dXQ-tz-v1A">
-                        <rect key="frame" x="70" y="39" width="353" height="23"/>
-                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
-                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <rect key="frame" x="70" y="38" width="353" height="25.5"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8v-WV-KNR">
@@ -29,7 +29,7 @@
                         </constraints>
                     </imageView>
                 </subviews>
-                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <color key="backgroundColor" red="0.0031692632604800059" green="0.55257912974094126" blue="0.10024352785101243" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstItem="dXQ-tz-v1A" firstAttribute="leading" secondItem="x8v-WV-KNR" secondAttribute="trailing" constant="10" id="040-ut-NkO"/>
                     <constraint firstAttribute="trailing" secondItem="dXQ-tz-v1A" secondAttribute="trailing" constant="10" id="21b-2z-bF2"/>

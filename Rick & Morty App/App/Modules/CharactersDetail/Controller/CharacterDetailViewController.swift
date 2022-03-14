@@ -51,6 +51,4 @@ extension CharacterDetailViewController: CharactersDetailDelegate {
     func showError() {
         print("Ha ocurrido un error")
     }
-    
-    
 }
