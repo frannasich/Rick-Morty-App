@@ -11,9 +11,14 @@ class MainPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
-
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+    }
+    
     @IBAction func charactersButton(_ sender: Any) {
         let charactersList = CharactersListViewController()
         self.navigationController?.pushViewController(charactersList, animated: true)

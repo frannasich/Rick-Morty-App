@@ -22,8 +22,10 @@ class CharactersListViewModel {
         service.getCharacters { characters in
             self.characters = characters
             self.delegate.reloadTable()
+            self.delegate.spinnerState(show: false)
         } onError: {
-            self.delegate.reloadTable()
+            self.delegate.spinnerState(show: false)
+            self.delegate.errorMessage()
         }
     }
     

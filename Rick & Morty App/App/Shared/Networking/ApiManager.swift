@@ -12,7 +12,7 @@ class ApiManager {
     static let shared = ApiManager()
 
     func get(url: String, completion: @escaping (Result<Data?, AFError>) -> Void) {
-        AF.request(url).response { response in
+        AF.request(url).validate(statusCode: 200..<300).response { [weak self] response in
             completion(response.result)
             print(response.result)
         }

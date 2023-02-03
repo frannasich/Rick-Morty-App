@@ -7,4 +7,5 @@ target 'Rick & Morty App' do
 
   # Pods for Rick & Morty App
 pod 'Alamofire';'5.4'
+pod 'SkeletonView'
 end

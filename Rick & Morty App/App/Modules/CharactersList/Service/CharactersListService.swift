@@ -13,13 +13,11 @@ class CharactersListService {
         ApiManager.shared.get(url: Constants().allCharactersURL) {response in
             switch response {
             case .success(let data):
-            
                 do {
                     if let data = data {
                         let decoder = JSONDecoder()
                         let characterResponse = try decoder.decode(CharacterResponse.self, from: data)
                         onComplete(characterResponse.results)
-                        print(characterResponse.results)
                     } else {
                         print("error case success")
                     }
@@ -27,8 +25,8 @@ class CharactersListService {
                 catch {
                     print("error catch")
                 }
-            case .failure(_):
-                print("failure error")
+            case .failure(let error):
+                print("failure error: \(error)")
             }
         }
     }
